@@ -19,6 +19,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
                          PublisherRepository publisherRepository) {
         this.authorRepository = authorRepository;
         this.bookRepository = bookRepository;
+        System.out.println("Hola soy un commit");
         this.publisherRepository = publisherRepository;
     }
 
